@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="F0Luzb6O6pRRZviPBfVM">
+    <mxGraphModel dx="1994" dy="1176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QuanLiPhieuPhuTroi" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=14;" value="Quản lí phiếu phụ trội" vertex="1">
+          <mxGeometry height="90" width="220" x="60" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="LapPhieu" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=14;" value="lập phiếu" vertex="1">
+          <mxGeometry height="80" width="180" x="420" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XoaPhieu" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=14;" value="xóa phiếu" vertex="1">
+          <mxGeometry height="80" width="180" x="420" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="KiemTraMaPhieuTrung" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=14;" value="kiểm tra mã phiếu trùng" vertex="1">
+          <mxGeometry height="80" width="200" x="740" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GhiThongTinPhieu" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=14;" value="ghi thông tin phiếu" vertex="1">
+          <mxGeometry height="80" width="200" x="740" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="QuanLiHopDong" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=14;" value="Quản lí hợp đồng" vertex="1">
+          <mxGeometry height="90" width="220" x="60" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="HopDongDaiHan" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=14;" value="hợp đồng dài hạn" vertex="1">
+          <mxGeometry height="80" width="180" x="420" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="HopDongNganHan" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=14;" value="hợp đồng ngắn hạn" vertex="1">
+          <mxGeometry height="80" width="180" x="420" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="LamHoSoBaoHiemYTe" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=14;" value="làm hồ sơ Bảo hiểm y tế" vertex="1">
+          <mxGeometry height="80" width="220" x="740" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="BaoHiemXaHoi" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=14;" value="Bảo hiểm xã hội" vertex="1">
+          <mxGeometry height="80" width="200" x="740" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="LapPhieu" style="edgeStyle=none;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#000000;verticalAlign=bottom;labelBackgroundColor=#ffffff;" target="QuanLiPhieuPhuTroi" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;ampgt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="XoaPhieu" style="edgeStyle=none;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#000000;verticalAlign=bottom;labelBackgroundColor=#ffffff;" target="QuanLiPhieuPhuTroi" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;ampgt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="LapPhieu" style="edgeStyle=none;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#000000;verticalAlign=bottom;labelBackgroundColor=#ffffff;" target="KiemTraMaPhieuTrung" value="&amp;lt;&amp;lt;include&amp;gt;&amp;ampgt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="LapPhieu" style="edgeStyle=none;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#000000;verticalAlign=bottom;labelBackgroundColor=#ffffff;" target="GhiThongTinPhieu" value="&amp;lt;&amp;lt;include&amp;gt;&amp;ampgt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="HopDongDaiHan" style="edgeStyle=none;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#000000;verticalAlign=bottom;labelBackgroundColor=#ffffff;" target="QuanLiHopDong" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;ampgt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="HopDongNganHan" style="edgeStyle=none;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#000000;verticalAlign=bottom;labelBackgroundColor=#ffffff;" target="QuanLiHopDong" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;ampgt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="HopDongDaiHan" style="edgeStyle=none;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#000000;verticalAlign=bottom;labelBackgroundColor=#ffffff;" target="LamHoSoBaoHiemYTe" value="&amp;lt;&amp;lt;include&amp;gt;&amp;ampgt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="HopDongDaiHan" style="edgeStyle=none;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#000000;verticalAlign=bottom;labelBackgroundColor=#ffffff;" target="BaoHiemXaHoi" value="&amp;lt;&amp;lt;include&amp;gt;&amp;ampgt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
