@@ -1,4 +1,4 @@
-# LAB6 - QUẢN LÝ PHÒNG KHÁM BỆNH
+p# LAB6 - QUẢN LÝ PHÒNG KHÁM BỆNH
 
 ## 1. Giới thiệu
 
