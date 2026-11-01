@@ -1,0 +1,136 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="IHRw3zG26-TkHLC3R-L0">
+    <mxGraphModel dx="1134" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="obj1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontStyle=1;" value="KhachHang" vertex="1">
+          <mxGeometry height="40" width="100" x="60" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="obj2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontStyle=1;" value="FormDatHang" vertex="1">
+          <mxGeometry height="40" width="120" x="220" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="obj3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontStyle=1;" value="XuLyDatHang" vertex="1">
+          <mxGeometry height="40" width="120" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="obj4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontStyle=1;" value="CongThanhToan" vertex="1">
+          <mxGeometry height="40" width="120" x="580" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="obj5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontStyle=1;" value="CSDL" vertex="1">
+          <mxGeometry height="40" width="90" x="740" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="obj6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontStyle=1;" value="DichVuEmail" vertex="1">
+          <mxGeometry height="40" width="110" x="890" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="line1" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="80" as="sourcePoint" />
+            <mxPoint x="110" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line2" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="80" as="sourcePoint" />
+            <mxPoint x="280" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line3" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="80" as="sourcePoint" />
+            <mxPoint x="460" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line4" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="80" as="sourcePoint" />
+            <mxPoint x="640" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line5" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="785" y="80" as="sourcePoint" />
+            <mxPoint x="785" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line6" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="945" y="80" as="sourcePoint" />
+            <mxPoint x="945" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="act1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="560" width="10" x="105" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="act2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="275" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="act3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="500" width="10" x="455" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="act4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="635" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="act5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="780" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="act6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="940" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="msg1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=default;" value="1: Bấm Thanh toán">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="130" as="sourcePoint" />
+            <mxPoint x="275" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=default;" value="2: Chọn loại phiếu, nhập người nhận &amp; thông tin thẻ tín dụng">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="170" as="sourcePoint" />
+            <mxPoint x="275" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg2_1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=default;" value="2.1: Gửi yêu cầu thanh toán">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="200" as="sourcePoint" />
+            <mxPoint x="455" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=default;" value="3: Kiểm tra thông tin thẻ">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="290" as="sourcePoint" />
+            <mxPoint x="635" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;dashed=1;verticalAlign=bottom;labelBackgroundColor=default;" value="4: Xác thực OK">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="330" as="sourcePoint" />
+            <mxPoint x="465" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=default;" value="5: Tính phí &amp; Ghi nhận đơn hàng">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="410" as="sourcePoint" />
+            <mxPoint x="780" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;dashed=1;verticalAlign=bottom;labelBackgroundColor=default;" value="6: Đã lưu đơn hàng">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="450" as="sourcePoint" />
+            <mxPoint x="465" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;verticalAlign=bottom;labelBackgroundColor=default;" value="7: Yêu cầu gửi email xác nhận">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="530" as="sourcePoint" />
+            <mxPoint x="940" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;dashed=1;verticalAlign=bottom;labelBackgroundColor=default;" value="8: Thông báo thành công">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="620" as="sourcePoint" />
+            <mxPoint x="115" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

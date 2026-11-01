@@ -1,0 +1,129 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="F0Luzb6O6pRRZviPBfVM">
+    <mxGraphModel dx="1994" dy="1176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Pool" parent="1" style="swimlane;html=1;childLayout=stackLayout;startSize=0;horizontal=1;swimlaneFillColor=none;rounded=0;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="980" width="800" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Lane1" parent="Pool" style="swimlane;html=1;startSize=40;horizontal=1;swimlaneFillColor=none;rounded=0;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;fontColor=#000000;fontStyle=1;" value="Quản lí" vertex="1">
+          <mxGeometry height="980" width="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Start" parent="Lane1" style="ellipse;html=1;aspect=fixed;strokeColor=#FF0000;fillColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="185" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChonQuanLi" parent="Lane1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=#FFFFCC;fontColor=#FF0000;" value="Chọn “Quản lí&#xa;phiếu phụ trội”." vertex="1">
+          <mxGeometry height="50" width="190" x="105" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ThaoTac" parent="Lane1" style="rhombus;html=1;strokeColor=#FF0000;fillColor=#FFFFCC;fontColor=#FF0000;rounded=0;" value="Thao tác thêm&#xa;xóa sửa" vertex="1">
+          <mxGeometry height="80" width="150" x="125" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ChonThem" parent="Lane1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=#FFFFCC;fontColor=#FF0000;" value="chọn thêm" vertex="1">
+          <mxGeometry height="50" width="160" x="120" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="NhanLuu" parent="Lane1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=#FFFFCC;fontColor=#FF0000;" value="nhấn lưu" vertex="1">
+          <mxGeometry height="50" width="160" x="120" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="ChonXoa" parent="Lane1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=#FFFFCC;fontColor=#FF0000;" value="chọn xóa" vertex="1">
+          <mxGeometry height="50" width="160" x="120" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="Xoa" parent="Lane1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=#FFFFCC;fontColor=#FF0000;" value="xóa" vertex="1">
+          <mxGeometry height="50" width="160" x="120" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="Lane1" source="Start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#FF0000;" target="ChonQuanLi" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="Lane1" source="ChonThem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#FF0000;" target="NhanLuu" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="Lane1" source="ChonXoa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#FF0000;" target="Xoa" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_them" edge="1" parent="Lane1" source="ThaoTac" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#FF0000;fontColor=#FF0000;labelBackgroundColor=none;" target="ChonThem" value="Thêm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_xoa" edge="1" parent="Lane1" source="ThaoTac" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#FF0000;fontColor=#FF0000;labelBackgroundColor=none;" target="ChonXoa" value="Xóa">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="260" />
+              <mxPoint x="50" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lane2" parent="Pool" style="swimlane;html=1;startSize=40;horizontal=1;swimlaneFillColor=none;rounded=0;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;fontColor=#000000;fontStyle=1;" value="Giao diện" vertex="1">
+          <mxGeometry height="980" width="400" x="400" as="geometry" />
+        </mxCell>
+        <mxCell id="HienThi" parent="Lane2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=#FFFFCC;fontColor=#FF0000;" value="Hiển thị danh sách&#xa;phiếu phụ trội trên giao&#xa;diện." vertex="1">
+          <mxGeometry height="60" width="190" x="105" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KiemTra" parent="Lane2" style="rhombus;html=1;strokeColor=#FF0000;fillColor=#FFFFCC;fontColor=#FF0000;rounded=0;" value="Kiểm tra&#xa;trường bắt&#xa;buộc và&#xa;thông tin&#xa;hợp lệ." vertex="1">
+          <mxGeometry height="110" width="160" x="85" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="DaLuu1" parent="Lane2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=#FFFFCC;fontColor=#FF0000;" value="đã lưu" vertex="1">
+          <mxGeometry height="50" width="160" x="105" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="End1" parent="Lane2" style="ellipse;html=1;aspect=fixed;shape=doubleEllipse;strokeColor=#FF0000;fillColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="170" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="LamMoi" parent="Lane2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;fillColor=#FFFFCC;fontColor=#FF0000;" value="làm mới danh sách" vertex="1">
+          <mxGeometry height="50" width="160" x="105" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="End2" parent="Lane2" style="ellipse;html=1;aspect=fixed;shape=doubleEllipse;strokeColor=#FF0000;fillColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="170" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="Lane2" source="DaLuu1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#FF0000;" target="End1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="Lane2" source="LamMoi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#FF0000;" target="End2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="Pool" source="ChonQuanLi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#FF0000;" target="HienThi" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="Pool" source="HienThi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#FF0000;" target="ThaoTac" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="200" />
+              <mxPoint x="200" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="Pool" source="NhanLuu" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#FF0000;" target="KiemTra" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="540" />
+              <mxPoint x="500" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_kiemtra_no" edge="1" parent="Pool" source="KiemTra" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#FF0000;fontColor=#FF0000;labelBackgroundColor=none;" target="ChonThem" value="no">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="475" />
+              <mxPoint x="320" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_kiemtra_yes" edge="1" parent="Pool" source="KiemTra" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#FF0000;fontColor=#FF0000;labelBackgroundColor=none;" target="NhanLuu" value="yes">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="Pool" source="NhanLuu" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#FF0000;" target="DaLuu1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="570" />
+              <mxPoint x="500" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="Pool" source="Xoa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#FF0000;" target="LamMoi" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
